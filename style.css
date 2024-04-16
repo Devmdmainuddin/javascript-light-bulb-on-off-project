@@ -1,0 +1,54 @@
+body{
+    background: #333333;
+}
+.images {
+text-align: center;
+}
+.hidden{
+    display: none;
+}
+.images img{
+    width: 300px;
+    object-fit: cover;
+    
+}
+.off_images{
+    padding: 10px;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    padding: 14px 25px;
+    line-height: 21px;
+    background: #58f305;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+.btn-2{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    padding: 14px 25px;
+    line-height: 21px;
+    background: red;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+.active{
+    background: #fff;
+    color: red;
+    border:none;
+}
+.fa-regular{
+    margin-right:10px ;
+}
